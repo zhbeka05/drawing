@@ -1,0 +1,34 @@
+<canvas id="myCanvas" width="1000" height="1000"></canvas>
+
+<script>
+    var canvas=document.getElementById("myCanvas");
+    //make variable ctx a pen
+    var ctx=canvas.getContext("2d");
+    //fill rectangle width red
+    // ctx.fillStyle="red";
+    // //draw rectangle from 0,0 to 30,30
+    // ctx.fillRect(0,0,30,30);
+    // //draw a line
+    // ctx.moveTo(30,0);
+    // ctx.lineTo(90,30);
+    // ctx.stroke();
+    // //draw a circle 
+    // ctx.beginPath();
+    // ctx.arc(80,30,30,0,6.6);
+    // ctx.stroke();
+    //circle
+    ctx.beginPath();
+    ctx.arc(100,100,100,0,6.6);
+    ctx.fillStyle="#2D7198";
+    ctx.fill();
+    //4 windows
+    ctx.fillStyle="#F25022";
+    ctx.fillRect(45,50,50,50);
+    ctx.fillStyle="#7FBA00";
+    ctx.fillRect(100,50,50,50);
+    ctx.fillStyle="#01A4EF";
+    ctx.fillRect(45,107,50,50);
+    ctx.fillStyle="#FFB901";
+    ctx.fillRect(100,107,50,50);
+</script>
+https://zhbeka05.github.io/drawing/
